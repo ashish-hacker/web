@@ -1,0 +1,42 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "fast and efficient app in nodejs , expressjs and react",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd",
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashish-hacker/web.git"
+  },
+  "author": "Ashish Kumar Panigrahy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashish-hacker/web/issues"
+  },
+  "homepage": "https://github.com/ashish-hacker/web#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/node": "latest",
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.27.0",
+    "eslint-plugin-react": "^7.23.2",
+    "prop-types": "^15.7.2",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
